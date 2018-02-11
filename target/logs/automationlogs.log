@@ -1,0 +1,853 @@
+[INFO ] 2018-02-09 17:45:07.402 [MLog-Init-Reporter] MLog - MLog clients using log4j2 logging.
+[DEBUG] 2018-02-09 17:45:07.425 [MLog-Init-Reporter] MLog - Could not find resource path text file for path '/com/mchange/v2/cfg/vmConfigResourcePaths.txt'. Skipping.
+[DEBUG] 2018-02-09 17:45:07.425 [MLog-Init-Reporter] MLog - Added paths from resource path text file at '/mchange-config-resource-paths.txt'
+[DEBUG] 2018-02-09 17:45:07.425 [MLog-Init-Reporter] MLog - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+[DEBUG] 2018-02-09 17:45:07.425 [MLog-Init-Reporter] MLog - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:07.426 [MLog-Init-Reporter] MLog - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:07.426 [MLog-Init-Reporter] MLog - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:07.426 [MLog-Init-Reporter] MLog - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:07.427 [MLog-Init-Reporter] MLog - Config available to MLog library: com.mchange.v2.cfg.BasicMultiPropertiesConfig@689965b6 [ propertiesByResourcePaths -> {/com/mchange/v2/log/default-mchange-log.properties={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, /={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib, java.vm.version=25.144-b01, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Volumes/macdata/idea项目/ssh, java.runtime.version=1.8.0_144-b01, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/w1/8ytyb3js2_vgrsv6gvkcn8m40000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.13.3, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/renzhenhua, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit5-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/tools.jar:/Volumes/macdata/idea项目/ssh/out/production/ssh:/Volumes/macdata/hibernate-lib/antlr-2.7.7.jar:/Volumes/macdata/hibernate-lib/backport-util-concurrent.jar:/Volumes/macdata/hibernate-lib/classmate-1.3.0.jar:/Volumes/macdata/hibernate-lib/dom4j-1.6.1.jar:/Volumes/macdata/hibernate-lib/ehcache-3.4.0.jar:/Volumes/macdata/hibernate-lib/hibernate-c3p0-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-commons-annotations-5.0.1.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-core-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-ehcache-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Volumes/macdata/hibernate-lib/jandex-2.0.3.Final.jar:/Volumes/macdata/hibernate-lib/jboss-logging-3.3.0.Final.jar:/Volumes/macdata/hibernate-lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/Volumes/macdata/struts2-lib/commons-fileupload-1.3.3.jar:/Volumes/macdata/struts2-lib/commons-io-2.5.jar:/Volumes/macdata/struts2-lib/commons-lang3-3.6.jar:/Volumes/macdata/struts2-lib/freemarker-2.3.26-incubating.jar:/Volumes/macdata/struts2-lib/javassist-3.20.0-GA.jar:/Volumes/macdata/struts2-lib/log4j-api-2.9.1.jar:/Volumes/macdata/struts2-lib/log4j-core-2.9.1.jar:/Volumes/macdata/struts2-lib/ognl-3.1.15.jar:/Volumes/macdata/struts2-lib/struts2-core-2.5.14.1.jar:/Volumes/macdata/spring-lib/aopalliance-1.0.jar:/Volumes/macdata/spring-lib/aspectjweaver-1.8.13.jar:/Volumes/macdata/spring-lib/commons-logging-1.2.jar:/Volumes/macdata/spring-lib/spring-aop-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-aspects-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-beans-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-support-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-core-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-expression-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-tomcat-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jdbc-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jms-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-messaging-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-orm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-oxm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-test-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-tx-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-web-4.3.14.RELEASE.jar:/Volumes/macdata/公用-lib/struts2-spring-plugin-2.5.14.1.jar:/Volumes/macdata/公用-lib/mysql-connector-java-5.1.45-bin.jar:/Volumes/macdata/c3p0连接池-lib/c3p0-0.9.5.2.jar:/Volumes/macdata/c3p0连接池-lib/mchange-commons-java-0.2.15.jar:/Applications/IntelliJ IDEA.app/Contents/lib/junit-4.12.jar:/Applications/IntelliJ IDEA.app/Contents/lib/hamcrest-core-1.3.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar, user.name=renzhenhua, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 com.scen.test.AppTest, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre, sun.arch.data.model=64, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_144, java.ext.dirs=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes, java.vendor=Oracle Corporation, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, idea.test.cyclic.buffer.size=1048576, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, sun.cpu.isalist=}}, propertiesByPrefixes -> {com={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, ={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib, java.vm.version=25.144-b01, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Volumes/macdata/idea项目/ssh, java.runtime.version=1.8.0_144-b01, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/w1/8ytyb3js2_vgrsv6gvkcn8m40000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.13.3, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/renzhenhua, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, user.name=renzhenhua, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit5-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/tools.jar:/Volumes/macdata/idea项目/ssh/out/production/ssh:/Volumes/macdata/hibernate-lib/antlr-2.7.7.jar:/Volumes/macdata/hibernate-lib/backport-util-concurrent.jar:/Volumes/macdata/hibernate-lib/classmate-1.3.0.jar:/Volumes/macdata/hibernate-lib/dom4j-1.6.1.jar:/Volumes/macdata/hibernate-lib/ehcache-3.4.0.jar:/Volumes/macdata/hibernate-lib/hibernate-c3p0-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-commons-annotations-5.0.1.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-core-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-ehcache-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Volumes/macdata/hibernate-lib/jandex-2.0.3.Final.jar:/Volumes/macdata/hibernate-lib/jboss-logging-3.3.0.Final.jar:/Volumes/macdata/hibernate-lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/Volumes/macdata/struts2-lib/commons-fileupload-1.3.3.jar:/Volumes/macdata/struts2-lib/commons-io-2.5.jar:/Volumes/macdata/struts2-lib/commons-lang3-3.6.jar:/Volumes/macdata/struts2-lib/freemarker-2.3.26-incubating.jar:/Volumes/macdata/struts2-lib/javassist-3.20.0-GA.jar:/Volumes/macdata/struts2-lib/log4j-api-2.9.1.jar:/Volumes/macdata/struts2-lib/log4j-core-2.9.1.jar:/Volumes/macdata/struts2-lib/ognl-3.1.15.jar:/Volumes/macdata/struts2-lib/struts2-core-2.5.14.1.jar:/Volumes/macdata/spring-lib/aopalliance-1.0.jar:/Volumes/macdata/spring-lib/aspectjweaver-1.8.13.jar:/Volumes/macdata/spring-lib/commons-logging-1.2.jar:/Volumes/macdata/spring-lib/spring-aop-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-aspects-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-beans-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-support-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-core-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-expression-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-tomcat-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jdbc-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jms-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-messaging-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-orm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-oxm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-test-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-tx-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-web-4.3.14.RELEASE.jar:/Volumes/macdata/公用-lib/struts2-spring-plugin-2.5.14.1.jar:/Volumes/macdata/公用-lib/mysql-connector-java-5.1.45-bin.jar:/Volumes/macdata/c3p0连接池-lib/c3p0-0.9.5.2.jar:/Volumes/macdata/c3p0连接池-lib/mchange-commons-java-0.2.15.jar:/Applications/IntelliJ IDEA.app/Contents/lib/junit-4.12.jar:/Applications/IntelliJ IDEA.app/Contents/lib/hamcrest-core-1.3.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre, sun.java.command=com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 com.scen.test.AppTest, java.specification.vendor=Oracle Corporation, user.language=zh, awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.vm.info=mixed mode, java.version=1.8.0_144, java.ext.dirs=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes, java.vendor=Oracle Corporation, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, idea.test.cyclic.buffer.size=1048576, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeBig, com.mchange.v2.log.jdk14logging.suppressStackWalk=true, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, sun.cpu.isalist=}, sun.management={sun.management.compiler=HotSpot 64-Bit Tiered Compilers}, java.vm={java.vm.version=25.144-b01, java.vm.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vm.specification.version=1.8, java.vm.vendor=Oracle Corporation, java.vm.info=mixed mode}, line={line.separator=
+}, idea={idea.test.cyclic.buffer.size=1048576}, idea.test={idea.test.cyclic.buffer.size=1048576}, sun.boot.class={sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes}, sun.java={sun.java.launcher=SUN_STANDARD, sun.java.command=com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 com.scen.test.AppTest}, sun={sun.arch.data.model=64, sun.java.launcher=SUN_STANDARD, sun.java.command=com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 com.scen.test.AppTest, sun.os.patch.level=unknown, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes, sun.jnu.encoding=UTF-8, sun.cpu.isalist=, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeBig}, sun.arch.data={sun.arch.data.model=64}, path={path.separator=:}, java={java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit5-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/tools.jar:/Volumes/macdata/idea项目/ssh/out/production/ssh:/Volumes/macdata/hibernate-lib/antlr-2.7.7.jar:/Volumes/macdata/hibernate-lib/backport-util-concurrent.jar:/Volumes/macdata/hibernate-lib/classmate-1.3.0.jar:/Volumes/macdata/hibernate-lib/dom4j-1.6.1.jar:/Volumes/macdata/hibernate-lib/ehcache-3.4.0.jar:/Volumes/macdata/hibernate-lib/hibernate-c3p0-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-commons-annotations-5.0.1.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-core-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-ehcache-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Volumes/macdata/hibernate-lib/jandex-2.0.3.Final.jar:/Volumes/macdata/hibernate-lib/jboss-logging-3.3.0.Final.jar:/Volumes/macdata/hibernate-lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/Volumes/macdata/struts2-lib/commons-fileupload-1.3.3.jar:/Volumes/macdata/struts2-lib/commons-io-2.5.jar:/Volumes/macdata/struts2-lib/commons-lang3-3.6.jar:/Volumes/macdata/struts2-lib/freemarker-2.3.26-incubating.jar:/Volumes/macdata/struts2-lib/javassist-3.20.0-GA.jar:/Volumes/macdata/struts2-lib/log4j-api-2.9.1.jar:/Volumes/macdata/struts2-lib/log4j-core-2.9.1.jar:/Volumes/macdata/struts2-lib/ognl-3.1.15.jar:/Volumes/macdata/struts2-lib/struts2-core-2.5.14.1.jar:/Volumes/macdata/spring-lib/aopalliance-1.0.jar:/Volumes/macdata/spring-lib/aspectjweaver-1.8.13.jar:/Volumes/macdata/spring-lib/commons-logging-1.2.jar:/Volumes/macdata/spring-lib/spring-aop-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-aspects-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-beans-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-support-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-core-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-expression-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-tomcat-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jdbc-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jms-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-messaging-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-orm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-oxm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-test-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-tx-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-web-4.3.14.RELEASE.jar:/Volumes/macdata/公用-lib/struts2-spring-plugin-2.5.14.1.jar:/Volumes/macdata/公用-lib/mysql-connector-java-5.1.45-bin.jar:/Volumes/macdata/c3p0连接池-lib/c3p0-0.9.5.2.jar:/Volumes/macdata/c3p0连接池-lib/mchange-commons-java-0.2.15.jar:/Applications/IntelliJ IDEA.app/Contents/lib/junit-4.12.jar:/Applications/IntelliJ IDEA.app/Contents/lib/hamcrest-core-1.3.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar, java.ext.dirs=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, java.runtime.name=Java(TM) SE Runtime Environment, java.runtime.version=1.8.0_144-b01, java.vendor=Oracle Corporation, java.specification.version=1.8, java.class.version=52.0, java.specification.name=Java Platform API Specification, java.vendor.url=http://java.oracle.com/, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, java.vm.version=25.144-b01, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed, java.version=1.8.0_144, java.vm.specification.version=1.8, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.vm.vendor=Oracle Corporation, java.vm.info=mixed mode, java.library.path=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vm.specification.vendor=Oracle Corporation, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.io.tmpdir=/var/folders/w1/8ytyb3js2_vgrsv6gvkcn8m40000gn/T/}, file={file.separator=/, file.encoding.pkg=sun.io, file.encoding=UTF-8}, file.encoding={file.encoding.pkg=sun.io}, java.vendor.url={java.vendor.url.bug=http://bugreport.sun.com/bugreport/}, com.mchange.v2.log={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, java.ext={java.ext.dirs=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java}, sun.boot={sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes}, java.specification={java.specification.version=1.8, java.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification}, sun.io.unicode={sun.io.unicode.encoding=UnicodeBig}, ftp={ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16}, os={os.version=10.13.3, os.name=Mac OS X, os.arch=x86_64}, sun.os={sun.os.patch.level=unknown}, com.mchange.v2={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, sun.boot.library={sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib}, sun.io={sun.io.unicode.encoding=UnicodeBig}, idea.test.cyclic.buffer={idea.test.cyclic.buffer.size=1048576}, java.runtime={java.runtime.version=1.8.0_144-b01, java.runtime.name=Java(TM) SE Runtime Environment}, java.class={java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit5-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/tools.jar:/Volumes/macdata/idea项目/ssh/out/production/ssh:/Volumes/macdata/hibernate-lib/antlr-2.7.7.jar:/Volumes/macdata/hibernate-lib/backport-util-concurrent.jar:/Volumes/macdata/hibernate-lib/classmate-1.3.0.jar:/Volumes/macdata/hibernate-lib/dom4j-1.6.1.jar:/Volumes/macdata/hibernate-lib/ehcache-3.4.0.jar:/Volumes/macdata/hibernate-lib/hibernate-c3p0-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-commons-annotations-5.0.1.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-core-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-ehcache-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Volumes/macdata/hibernate-lib/jandex-2.0.3.Final.jar:/Volumes/macdata/hibernate-lib/jboss-logging-3.3.0.Final.jar:/Volumes/macdata/hibernate-lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/Volumes/macdata/struts2-lib/commons-fileupload-1.3.3.jar:/Volumes/macdata/struts2-lib/commons-io-2.5.jar:/Volumes/macdata/struts2-lib/commons-lang3-3.6.jar:/Volumes/macdata/struts2-lib/freemarker-2.3.26-incubating.jar:/Volumes/macdata/struts2-lib/javassist-3.20.0-GA.jar:/Volumes/macdata/struts2-lib/log4j-api-2.9.1.jar:/Volumes/macdata/struts2-lib/log4j-core-2.9.1.jar:/Volumes/macdata/struts2-lib/ognl-3.1.15.jar:/Volumes/macdata/struts2-lib/struts2-core-2.5.14.1.jar:/Volumes/macdata/spring-lib/aopalliance-1.0.jar:/Volumes/macdata/spring-lib/aspectjweaver-1.8.13.jar:/Volumes/macdata/spring-lib/commons-logging-1.2.jar:/Volumes/macdata/spring-lib/spring-aop-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-aspects-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-beans-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-support-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-core-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-expression-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-tomcat-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jdbc-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jms-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-messaging-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-orm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-oxm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-test-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-tx-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-web-4.3.14.RELEASE.jar:/Volumes/macdata/公用-lib/struts2-spring-plugin-2.5.14.1.jar:/Volumes/macdata/公用-lib/mysql-connector-java-5.1.45-bin.jar:/Volumes/macdata/c3p0连接池-lib/c3p0-0.9.5.2.jar:/Volumes/macdata/c3p0连接池-lib/mchange-commons-java-0.2.15.jar:/Applications/IntelliJ IDEA.app/Contents/lib/junit-4.12.jar:/Applications/IntelliJ IDEA.app/Contents/lib/hamcrest-core-1.3.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar, java.class.version=52.0}, com.mchange={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, java.awt={java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment}, java.vm.specification={java.vm.specification.vendor=Oracle Corporation, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8}, sun.os.patch={sun.os.patch.level=unknown}, java.library={java.library.path=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.}, sun.arch={sun.arch.data.model=64}, com.mchange.v2.log.jdk14logging={com.mchange.v2.log.jdk14logging.suppressStackWalk=true}, java.vendor={java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.vendor.url=http://java.oracle.com/}, java.io={java.io.tmpdir=/var/folders/w1/8ytyb3js2_vgrsv6gvkcn8m40000gn/T/}, java.endorsed={java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed}, sun.jnu={sun.jnu.encoding=UTF-8}, http={http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16}, idea.test.cyclic={idea.test.cyclic.buffer.size=1048576}, user={user.name=renzhenhua, user.timezone=Asia/Shanghai, user.country=CN, user.dir=/Volumes/macdata/idea项目/ssh, user.home=/Users/renzhenhua, user.language=zh}, sun.cpu={sun.cpu.endian=little, sun.cpu.isalist=}, awt={awt.toolkit=sun.lwawt.macosx.LWCToolkit}} ]
+[DEBUG] 2018-02-09 17:45:07.438 [main] MConfig - Could not find resource path text file for path '/com/mchange/v2/cfg/vmConfigResourcePaths.txt'. Skipping.
+[DEBUG] 2018-02-09 17:45:07.440 [main] MConfig - Added paths from resource path text file at '/mchange-config-resource-paths.txt'
+[DEBUG] 2018-02-09 17:45:07.440 [main] MConfig - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:07.440 [main] MConfig - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:07.441 [main] MConfig - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:07.441 [main] MConfig - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+[INFO ] 2018-02-09 17:45:07.512 [main] C3P0Registry - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+[DEBUG] 2018-02-09 17:45:07.568 [main] DynamicPooledDataSourceManagerMBean - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=z8kflt9txu5ztq1czj3n3|6f36c2f0,name=z8kflt9txu5ztq1czj3n3|6f36c2f0 registered.
+[DEBUG] 2018-02-09 17:45:07.614 [main] DynamicPooledDataSourceManagerMBean - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=z8kflt9txu5ztq1czj3n3|6f36c2f0,name=z8kflt9txu5ztq1czj3n3|6f36c2f0 unregistered, in order to be reregistered after update.
+[DEBUG] 2018-02-09 17:45:07.614 [main] DynamicPooledDataSourceManagerMBean - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=z8kflt9txu5ztq1czj3n3|6f36c2f0,name=z8kflt9txu5ztq1czj3n3|6f36c2f0 registered.
+[DEBUG] 2018-02-09 17:45:08.123 [main] logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[DEBUG] 2018-02-09 17:45:08.140 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2018-02-09 17:45:08.142 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2018-02-09 17:45:08.207 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[TRACE] 2018-02-09 17:45:08.306 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Cache71] -> [org.hibernate.dialect.Cache71Dialect]
+[TRACE] 2018-02-09 17:45:08.307 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [CUBRID] -> [org.hibernate.dialect.CUBRIDDialect]
+[TRACE] 2018-02-09 17:45:08.308 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2] -> [org.hibernate.dialect.DB2Dialect]
+[TRACE] 2018-02-09 17:45:08.309 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390] -> [org.hibernate.dialect.DB2390Dialect]
+[TRACE] 2018-02-09 17:45:08.310 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390V8] -> [org.hibernate.dialect.DB2390V8Dialect]
+[TRACE] 2018-02-09 17:45:08.311 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2400] -> [org.hibernate.dialect.DB2400Dialect]
+[TRACE] 2018-02-09 17:45:08.313 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenFive] -> [org.hibernate.dialect.DerbyTenFiveDialect]
+[TRACE] 2018-02-09 17:45:08.314 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSix] -> [org.hibernate.dialect.DerbyTenSixDialect]
+[TRACE] 2018-02-09 17:45:08.314 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSeven] -> [org.hibernate.dialect.DerbyTenSevenDialect]
+[TRACE] 2018-02-09 17:45:08.315 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Firebird] -> [org.hibernate.dialect.FirebirdDialect]
+[TRACE] 2018-02-09 17:45:08.316 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [FrontBase] -> [org.hibernate.dialect.FrontBaseDialect]
+[TRACE] 2018-02-09 17:45:08.317 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [H2] -> [org.hibernate.dialect.H2Dialect]
+[TRACE] 2018-02-09 17:45:08.318 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANAColumnStore] -> [org.hibernate.dialect.HANAColumnStoreDialect]
+[TRACE] 2018-02-09 17:45:08.319 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANARowStore] -> [org.hibernate.dialect.HANARowStoreDialect]
+[TRACE] 2018-02-09 17:45:08.320 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HSQL] -> [org.hibernate.dialect.HSQLDialect]
+[TRACE] 2018-02-09 17:45:08.320 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Informix] -> [org.hibernate.dialect.InformixDialect]
+[TRACE] 2018-02-09 17:45:08.322 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres] -> [org.hibernate.dialect.IngresDialect]
+[TRACE] 2018-02-09 17:45:08.322 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres9] -> [org.hibernate.dialect.Ingres9Dialect]
+[TRACE] 2018-02-09 17:45:08.323 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres10] -> [org.hibernate.dialect.Ingres10Dialect]
+[TRACE] 2018-02-09 17:45:08.323 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Interbase] -> [org.hibernate.dialect.InterbaseDialect]
+[TRACE] 2018-02-09 17:45:08.324 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [JDataStore] -> [org.hibernate.dialect.JDataStoreDialect]
+[TRACE] 2018-02-09 17:45:08.325 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Mckoi] -> [org.hibernate.dialect.MckoiDialect]
+[TRACE] 2018-02-09 17:45:08.325 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MimerSQL] -> [org.hibernate.dialect.MimerSQLDialect]
+[TRACE] 2018-02-09 17:45:08.327 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect]
+[TRACE] 2018-02-09 17:45:08.328 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect]
+[TRACE] 2018-02-09 17:45:08.328 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57InnoDB] -> [org.hibernate.dialect.MySQL57InnoDBDialect]
+[TRACE] 2018-02-09 17:45:08.329 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57] -> [org.hibernate.dialect.MySQL57Dialect]
+[TRACE] 2018-02-09 17:45:08.331 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle8i] -> [org.hibernate.dialect.Oracle8iDialect]
+[TRACE] 2018-02-09 17:45:08.332 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle9i] -> [org.hibernate.dialect.Oracle9iDialect]
+[TRACE] 2018-02-09 17:45:08.332 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle10g] -> [org.hibernate.dialect.Oracle10gDialect]
+[TRACE] 2018-02-09 17:45:08.333 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Pointbase] -> [org.hibernate.dialect.PointbaseDialect]
+[TRACE] 2018-02-09 17:45:08.335 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgresPlus] -> [org.hibernate.dialect.PostgresPlusDialect]
+[TRACE] 2018-02-09 17:45:08.336 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL81] -> [org.hibernate.dialect.PostgreSQL81Dialect]
+[TRACE] 2018-02-09 17:45:08.336 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL82] -> [org.hibernate.dialect.PostgreSQL82Dialect]
+[TRACE] 2018-02-09 17:45:08.336 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL9] -> [org.hibernate.dialect.PostgreSQL9Dialect]
+[TRACE] 2018-02-09 17:45:08.337 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Progress] -> [org.hibernate.dialect.ProgressDialect]
+[TRACE] 2018-02-09 17:45:08.338 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SAPDB] -> [org.hibernate.dialect.SAPDBDialect]
+[TRACE] 2018-02-09 17:45:08.339 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer] -> [org.hibernate.dialect.SQLServerDialect]
+[TRACE] 2018-02-09 17:45:08.340 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2005] -> [org.hibernate.dialect.SQLServer2005Dialect]
+[TRACE] 2018-02-09 17:45:08.341 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2008] -> [org.hibernate.dialect.SQLServer2008Dialect]
+[TRACE] 2018-02-09 17:45:08.342 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Sybase11] -> [org.hibernate.dialect.Sybase11Dialect]
+[TRACE] 2018-02-09 17:45:08.343 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseAnywhere] -> [org.hibernate.dialect.SybaseAnywhereDialect]
+[TRACE] 2018-02-09 17:45:08.344 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE15] -> [org.hibernate.dialect.SybaseASE15Dialect]
+[TRACE] 2018-02-09 17:45:08.344 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE157] -> [org.hibernate.dialect.SybaseASE157Dialect]
+[TRACE] 2018-02-09 17:45:08.346 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Teradata] -> [org.hibernate.dialect.TeradataDialect]
+[TRACE] 2018-02-09 17:45:08.347 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [TimesTen] -> [org.hibernate.dialect.TimesTenDialect]
+[TRACE] 2018-02-09 17:45:08.350 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Borland] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.350 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BorlandEnterpriseServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.351 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Bitronix] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.351 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BitronixJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.352 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.352 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.353 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossTS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.353 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossStandAloneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.353 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOnAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.354 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOnASJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.354 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOTM] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.354 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOTMJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.355 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JRun4] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+[TRACE] 2018-02-09 17:45:08.355 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JRun4JtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+[TRACE] 2018-02-09 17:45:08.357 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [OC4J] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.357 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OC4JJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.358 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Orion] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.358 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OrionJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.359 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Resin] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.363 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.ResinJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.363 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SapNetWeaver] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.364 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SapNetWeaverJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.364 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SunOne] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.365 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SunOneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.365 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Weblogic] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.365 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WeblogicJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.366 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphere] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.370 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.371 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereExtended] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.371 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereExtendedJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+[TRACE] 2018-02-09 17:45:08.372 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-09 17:45:08.373 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-09 17:45:08.373 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-09 17:45:08.373 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-09 17:45:08.373 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-09 17:45:08.376 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+[TRACE] 2018-02-09 17:45:08.377 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+[TRACE] 2018-02-09 17:45:08.379 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+[TRACE] 2018-02-09 17:45:08.380 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [disallow] -> [org.hibernate.event.internal.EntityCopyNotAllowedObserver]
+[TRACE] 2018-02-09 17:45:08.380 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [allow] -> [org.hibernate.event.internal.EntityCopyAllowedObserver]
+[TRACE] 2018-02-09 17:45:08.381 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [log] -> [org.hibernate.event.internal.EntityCopyAllowedLoggedObserver]
+[TRACE] 2018-02-09 17:45:08.382 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+[TRACE] 2018-02-09 17:45:08.382 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+[TRACE] 2018-02-09 17:45:08.382 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+[TRACE] 2018-02-09 17:45:08.383 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+[TRACE] 2018-02-09 17:45:08.384 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+[TRACE] 2018-02-09 17:45:08.384 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+[TRACE] 2018-02-09 17:45:08.385 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+[TRACE] 2018-02-09 17:45:08.394 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [c3p0] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-02-09 17:45:08.394 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [C3P0ConnectionProvider] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-02-09 17:45:08.394 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [org.hibernate.connection.C3P0ConnectionProvider] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-02-09 17:45:08.394 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-02-09 17:45:08.397 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.RegionFactory] : [ehcache] -> [org.hibernate.cache.ehcache.EhCacheRegionFactory]
+[TRACE] 2018-02-09 17:45:08.397 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.RegionFactory] : [org.hibernate.cache.ehcache.EhCacheRegionFactory] -> [org.hibernate.cache.ehcache.EhCacheRegionFactory]
+[TRACE] 2018-02-09 17:45:08.397 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.RegionFactory] : [EhCacheRegionFactory] -> [org.hibernate.cache.ehcache.EhCacheRegionFactory]
+[TRACE] 2018-02-09 17:45:08.397 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.RegionFactory] : [org.hibernate.cache.EhCacheRegionFactory] -> [org.hibernate.cache.ehcache.EhCacheRegionFactory]
+[TRACE] 2018-02-09 17:45:08.398 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.RegionFactory] : [ehcache-singleton] -> [org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory]
+[TRACE] 2018-02-09 17:45:08.398 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.RegionFactory] : [org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory] -> [org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory]
+[TRACE] 2018-02-09 17:45:08.400 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.RegionFactory] : [SingletonEhCacheRegionFactory] -> [org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory]
+[TRACE] 2018-02-09 17:45:08.403 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.RegionFactory] : [org.hibernate.cache.SingletonEhCacheRegionFactory] -> [org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory]
+[INFO ] 2018-02-09 17:45:08.456 [main] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-02-09 17:45:08.457 [main] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2018-02-09 17:45:08.487 [main] Configuration - Building session factory using internal StandardServiceRegistryBuilder
+[DEBUG] 2018-02-09 17:45:08.496 [main] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2018-02-09 17:45:08.496 [main] Configuration - Building session factory using provided StandardServiceRegistry
+[TRACE] 2018-02-09 17:45:08.508 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+[TRACE] 2018-02-09 17:45:08.523 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+[DEBUG] 2018-02-09 17:45:08.527 [main] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2018-02-09 17:45:08.542 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[TRACE] 2018-02-09 17:45:08.553 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+[DEBUG] 2018-02-09 17:45:08.580 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@207b8649
+[DEBUG] 2018-02-09 17:45:08.581 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@207b8649
+[DEBUG] 2018-02-09 17:45:08.581 [main] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@207b8649
+[DEBUG] 2018-02-09 17:45:08.583 [main] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@53d1b9b3
+[DEBUG] 2018-02-09 17:45:08.585 [main] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@788fcafb
+[DEBUG] 2018-02-09 17:45:08.586 [main] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@1698ee84
+[DEBUG] 2018-02-09 17:45:08.588 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@75459c75
+[DEBUG] 2018-02-09 17:45:08.588 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@75459c75
+[DEBUG] 2018-02-09 17:45:08.588 [main] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@75459c75
+[DEBUG] 2018-02-09 17:45:08.590 [main] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@b78a709
+[DEBUG] 2018-02-09 17:45:08.590 [main] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@b78a709
+[DEBUG] 2018-02-09 17:45:08.590 [main] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@b78a709
+[DEBUG] 2018-02-09 17:45:08.594 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@a776e
+[DEBUG] 2018-02-09 17:45:08.594 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@a776e
+[DEBUG] 2018-02-09 17:45:08.594 [main] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@a776e
+[DEBUG] 2018-02-09 17:45:08.597 [main] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@6821ea29
+[DEBUG] 2018-02-09 17:45:08.598 [main] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@6821ea29
+[DEBUG] 2018-02-09 17:45:08.598 [main] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6821ea29
+[DEBUG] 2018-02-09 17:45:08.600 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@10993713
+[DEBUG] 2018-02-09 17:45:08.600 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@10993713
+[DEBUG] 2018-02-09 17:45:08.600 [main] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@10993713
+[DEBUG] 2018-02-09 17:45:08.602 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@14b030a0
+[DEBUG] 2018-02-09 17:45:08.602 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@14b030a0
+[DEBUG] 2018-02-09 17:45:08.603 [main] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@14b030a0
+[DEBUG] 2018-02-09 17:45:08.604 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@75e91545
+[DEBUG] 2018-02-09 17:45:08.604 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@75e91545
+[DEBUG] 2018-02-09 17:45:08.605 [main] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@75e91545
+[DEBUG] 2018-02-09 17:45:08.607 [main] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@e077866
+[DEBUG] 2018-02-09 17:45:08.607 [main] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@e077866
+[DEBUG] 2018-02-09 17:45:08.609 [main] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1c7fd41f
+[DEBUG] 2018-02-09 17:45:08.609 [main] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1c7fd41f
+[DEBUG] 2018-02-09 17:45:08.611 [main] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@662f5666
+[DEBUG] 2018-02-09 17:45:08.611 [main] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@662f5666
+[DEBUG] 2018-02-09 17:45:08.612 [main] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@502f1f4c
+[DEBUG] 2018-02-09 17:45:08.614 [main] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4fbda97b
+[DEBUG] 2018-02-09 17:45:08.617 [main] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@4879f0f2
+[DEBUG] 2018-02-09 17:45:08.617 [main] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@4879f0f2
+[DEBUG] 2018-02-09 17:45:08.619 [main] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@5b43fbf6
+[DEBUG] 2018-02-09 17:45:08.619 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5b43fbf6
+[DEBUG] 2018-02-09 17:45:08.646 [main] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@62ea3440
+[DEBUG] 2018-02-09 17:45:08.647 [main] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@62ea3440
+[DEBUG] 2018-02-09 17:45:08.650 [main] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@5bfa8cc5
+[DEBUG] 2018-02-09 17:45:08.650 [main] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@5bfa8cc5
+[DEBUG] 2018-02-09 17:45:08.653 [main] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@4a3329b9
+[DEBUG] 2018-02-09 17:45:08.653 [main] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@4a3329b9
+[DEBUG] 2018-02-09 17:45:08.655 [main] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@3f053c80
+[DEBUG] 2018-02-09 17:45:08.656 [main] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@3f053c80
+[DEBUG] 2018-02-09 17:45:08.658 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1d8062d2
+[DEBUG] 2018-02-09 17:45:08.658 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1d8062d2
+[DEBUG] 2018-02-09 17:45:08.660 [main] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@295eaa7c
+[DEBUG] 2018-02-09 17:45:08.660 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@295eaa7c
+[DEBUG] 2018-02-09 17:45:08.665 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1b065145
+[DEBUG] 2018-02-09 17:45:08.666 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1b065145
+[DEBUG] 2018-02-09 17:45:08.669 [main] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@56c9bbd8
+[DEBUG] 2018-02-09 17:45:08.670 [main] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@56c9bbd8
+[DEBUG] 2018-02-09 17:45:08.672 [main] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@12dae582
+[DEBUG] 2018-02-09 17:45:08.672 [main] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@12dae582
+[DEBUG] 2018-02-09 17:45:08.673 [main] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@652a7737
+[DEBUG] 2018-02-09 17:45:08.674 [main] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@652a7737
+[DEBUG] 2018-02-09 17:45:08.674 [main] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@652a7737
+[DEBUG] 2018-02-09 17:45:08.676 [main] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@650eab8
+[DEBUG] 2018-02-09 17:45:08.681 [main] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@53f48368
+[DEBUG] 2018-02-09 17:45:08.681 [main] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@53f48368
+[DEBUG] 2018-02-09 17:45:08.681 [main] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@53f48368
+[DEBUG] 2018-02-09 17:45:08.684 [main] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4c37b5b
+[DEBUG] 2018-02-09 17:45:08.685 [main] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@3c435123
+[DEBUG] 2018-02-09 17:45:08.685 [main] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3c435123
+[DEBUG] 2018-02-09 17:45:08.687 [main] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@78a287ed
+[DEBUG] 2018-02-09 17:45:08.687 [main] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@78a287ed
+[DEBUG] 2018-02-09 17:45:08.688 [main] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@485a3466
+[DEBUG] 2018-02-09 17:45:08.688 [main] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@485a3466
+[DEBUG] 2018-02-09 17:45:08.689 [main] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@5ad10c1a
+[DEBUG] 2018-02-09 17:45:08.690 [main] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5ad10c1a
+[DEBUG] 2018-02-09 17:45:08.694 [main] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4baf352a
+[DEBUG] 2018-02-09 17:45:08.694 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4baf352a
+[DEBUG] 2018-02-09 17:45:08.695 [main] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@22d6f11
+[DEBUG] 2018-02-09 17:45:08.696 [main] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@553f1d75
+[DEBUG] 2018-02-09 17:45:08.697 [main] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@553f1d75
+[DEBUG] 2018-02-09 17:45:08.697 [main] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@553f1d75
+[DEBUG] 2018-02-09 17:45:08.699 [main] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4de41af9
+[DEBUG] 2018-02-09 17:45:08.699 [main] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4de41af9
+[DEBUG] 2018-02-09 17:45:08.699 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4de41af9
+[DEBUG] 2018-02-09 17:45:08.703 [main] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@6cbcf243
+[DEBUG] 2018-02-09 17:45:08.705 [main] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@269f4bad
+[DEBUG] 2018-02-09 17:45:08.706 [main] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@40e10ff8
+[DEBUG] 2018-02-09 17:45:08.707 [main] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@40e10ff8
+[DEBUG] 2018-02-09 17:45:08.707 [main] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@40e10ff8
+[DEBUG] 2018-02-09 17:45:08.708 [main] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@33e01298
+[DEBUG] 2018-02-09 17:45:08.709 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@33e01298
+[DEBUG] 2018-02-09 17:45:08.709 [main] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@33e01298
+[DEBUG] 2018-02-09 17:45:08.710 [main] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@73ff4fae
+[DEBUG] 2018-02-09 17:45:08.712 [main] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@54227100
+[DEBUG] 2018-02-09 17:45:08.717 [main] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@7b64240d
+[DEBUG] 2018-02-09 17:45:08.717 [main] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@7b64240d
+[DEBUG] 2018-02-09 17:45:08.718 [main] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@74cadd41
+[DEBUG] 2018-02-09 17:45:08.723 [main] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@6c8bca63
+[DEBUG] 2018-02-09 17:45:08.726 [main] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6c8bca63
+[DEBUG] 2018-02-09 17:45:08.740 [main] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@64df9a61
+[DEBUG] 2018-02-09 17:45:08.740 [main] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@64df9a61
+[DEBUG] 2018-02-09 17:45:08.741 [main] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2c3dec30
+[DEBUG] 2018-02-09 17:45:08.742 [main] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7c56e013
+[DEBUG] 2018-02-09 17:45:08.744 [main] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@34a1d21f
+[DEBUG] 2018-02-09 17:45:08.749 [main] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@427b5f92
+[DEBUG] 2018-02-09 17:45:08.749 [main] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@427b5f92
+[DEBUG] 2018-02-09 17:45:08.750 [main] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@34625ccd
+[DEBUG] 2018-02-09 17:45:08.750 [main] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2c7d121c
+[DEBUG] 2018-02-09 17:45:08.750 [main] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@65aa6596
+[DEBUG] 2018-02-09 17:45:08.750 [main] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@67389cb8
+[DEBUG] 2018-02-09 17:45:08.750 [main] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@419a20a6
+[DEBUG] 2018-02-09 17:45:08.750 [main] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@533377b
+[DEBUG] 2018-02-09 17:45:08.750 [main] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3383649e
+[DEBUG] 2018-02-09 17:45:08.750 [main] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@10fde30a
+[TRACE] 2018-02-09 17:45:08.751 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+[TRACE] 2018-02-09 17:45:08.754 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+[TRACE] 2018-02-09 17:45:08.754 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+[TRACE] 2018-02-09 17:45:08.755 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+[TRACE] 2018-02-09 17:45:08.762 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+[TRACE] 2018-02-09 17:45:08.766 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+[INFO ] 2018-02-09 17:45:08.866 [main] AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kflt9txu5ztq1czj3n3|6f36c2f0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kflt9txu5ztq1czj3n3|6f36c2f0, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/spring03, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[DEBUG] 2018-02-09 17:45:08.903 [main] MConfig - Could not find resource path text file for path '/com/mchange/v2/cfg/vmConfigResourcePaths.txt'. Skipping.
+[DEBUG] 2018-02-09 17:45:08.903 [main] MConfig - Added paths from resource path text file at '/mchange-config-resource-paths.txt'
+[DEBUG] 2018-02-09 17:45:08.904 [main] MConfig - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:08.904 [main] MConfig - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:08.904 [main] MConfig - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:08.904 [main] MConfig - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+[DEBUG] 2018-02-09 17:45:08.907 [main] BasicResourcePool - incremented pending_acquires: 1
+[DEBUG] 2018-02-09 17:45:08.907 [main] BasicResourcePool - Starting acquisition series. Incremented pending_acquires [1],  attempts_remaining: 30
+[DEBUG] 2018-02-09 17:45:08.907 [main] ThreadPoolAsynchronousRunner - com.mchange.v2.async.ThreadPoolAsynchronousRunner@72bd06ca: Adding task to queue -- com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@89c10b7
+[DEBUG] 2018-02-09 17:45:08.907 [main] BasicResourcePool - incremented pending_acquires: 2
+[DEBUG] 2018-02-09 17:45:08.908 [main] BasicResourcePool - Starting acquisition series. Incremented pending_acquires [2],  attempts_remaining: 30
+[DEBUG] 2018-02-09 17:45:08.908 [main] ThreadPoolAsynchronousRunner - com.mchange.v2.async.ThreadPoolAsynchronousRunner@72bd06ca: Adding task to queue -- com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@5dbe30be
+[DEBUG] 2018-02-09 17:45:08.908 [main] BasicResourcePool - incremented pending_acquires: 3
+[DEBUG] 2018-02-09 17:45:08.908 [main] BasicResourcePool - Starting acquisition series. Incremented pending_acquires [3],  attempts_remaining: 30
+[DEBUG] 2018-02-09 17:45:08.908 [main] ThreadPoolAsynchronousRunner - com.mchange.v2.async.ThreadPoolAsynchronousRunner@72bd06ca: Adding task to queue -- com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4fe89c24
+[DEBUG] 2018-02-09 17:45:08.909 [main] BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool@55795845 config: [start -> 3; min -> 3; max -> 15; inc -> 3; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+[DEBUG] 2018-02-09 17:45:08.910 [main] C3P0PooledConnectionPoolManager - Created new pool for auth, username (masked): 'ro******'.
+[DEBUG] 2018-02-09 17:45:08.910 [main] BasicResourcePool - acquire test -- pool size: 0; target_pool_size: 3; desired target? 1
+[DEBUG] 2018-02-09 17:45:08.912 [main] BasicResourcePool - awaitAvailable(): [unknown]
+[DEBUG] 2018-02-09 17:45:08.912 [main] BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@55795845 [managed: 0, unused: 0, excluded: 0]
+[DEBUG] 2018-02-09 17:45:09.412 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#1] C3P0PooledConnectionPool - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@22330b7d.acquireResource() returning. 
+[DEBUG] 2018-02-09 17:45:09.412 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#0] C3P0PooledConnectionPool - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@22330b7d.acquireResource() returning. 
+[DEBUG] 2018-02-09 17:45:09.412 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#2] C3P0PooledConnectionPool - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@22330b7d.acquireResource() returning. 
+[DEBUG] 2018-02-09 17:45:09.413 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#1] BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@55795845 [managed: 1, unused: 1, excluded: 0]
+[DEBUG] 2018-02-09 17:45:09.413 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#1] BasicResourcePool - decremented pending_acquires: 2
+[DEBUG] 2018-02-09 17:45:09.413 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#1] BasicResourcePool - Acquisition series terminated successfully. Decremented pending_acquires [2],  attempts_remaining: 30
+[DEBUG] 2018-02-09 17:45:09.413 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#2] BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@55795845 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@193cde1d)
+[DEBUG] 2018-02-09 17:45:09.413 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#2] BasicResourcePool - decremented pending_acquires: 1
+[DEBUG] 2018-02-09 17:45:09.413 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#2] BasicResourcePool - Acquisition series terminated successfully. Decremented pending_acquires [1],  attempts_remaining: 30
+[DEBUG] 2018-02-09 17:45:09.414 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#0] BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@55795845 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@193cde1d)
+[DEBUG] 2018-02-09 17:45:09.414 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#0] BasicResourcePool - decremented pending_acquires: 0
+[DEBUG] 2018-02-09 17:45:09.414 [C3P0PooledConnectionPoolManager[identityToken->z8kflt9txu5ztq1czj3n3|6f36c2f0]-HelperThread-#0] BasicResourcePool - Acquisition series terminated successfully. Decremented pending_acquires [0],  attempts_remaining: 30
+[DEBUG] 2018-02-09 17:45:09.415 [main] BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@55795845 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@193cde1d)
+[DEBUG] 2018-02-09 17:45:09.423 [main] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.6.39
+      major : 5
+      minor : 6
+[DEBUG] 2018-02-09 17:45:09.423 [main] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )
+      major : 5
+      minor : 1
+[DEBUG] 2018-02-09 17:45:09.423 [main] JdbcEnvironmentInitiator - JDBC version : 4.0
+[INFO ] 2018-02-09 17:45:09.438 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[DEBUG] 2018-02-09 17:45:09.492 [main] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2018-02-09 17:45:09.494 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[TRACE] 2018-02-09 17:45:09.496 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [spring03]
+[TRACE] 2018-02-09 17:45:09.496 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+[DEBUG] 2018-02-09 17:45:09.515 [main] ThreadPoolAsynchronousRunner - com.mchange.v2.async.ThreadPoolAsynchronousRunner@72bd06ca: Adding task to queue -- com.mchange.v2.resourcepool.BasicResourcePool$1RefurbishCheckinResourceTask@64712be
+[DEBUG] 2018-02-09 17:45:09.515 [main] BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@55795845 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@193cde1d)
+[TRACE] 2018-02-09 17:45:09.557 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+[DEBUG] 2018-02-09 17:45:09.560 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2018-02-09 17:45:09.561 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2018-02-09 17:45:09.562 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-02-09 17:45:09.563 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-02-09 17:45:09.563 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2018-02-09 17:45:09.564 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2018-02-09 17:45:09.565 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2018-02-09 17:45:09.566 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-02-09 17:45:09.567 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2018-02-09 17:45:09.567 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2018-02-09 17:45:09.568 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2018-02-09 17:45:09.568 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2018-02-09 17:45:09.568 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-02-09 17:45:09.569 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[DEBUG] 2018-02-09 17:45:09.606 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2018-02-09 17:45:09.638 [main] AnnotationBinder - Binding entity from annotated class: com.scen.domain.User
+[TRACE] 2018-02-09 17:45:09.680 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [DTYPE]
+[DEBUG] 2018-02-09 17:45:09.680 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-02-09 17:45:09.692 [main] EntityBinder - Import with entity name User
+[TRACE] 2018-02-09 17:45:09.693 [main] InFlightMetadataCollectorImpl - Import: User -> com.scen.domain.User
+[TRACE] 2018-02-09 17:45:09.693 [main] InFlightMetadataCollectorImpl - Import: com.scen.domain.User -> com.scen.domain.User
+[TRACE] 2018-02-09 17:45:09.695 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [t_user]
+[TRACE] 2018-02-09 17:45:09.695 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [t_user]
+[DEBUG] 2018-02-09 17:45:09.698 [main] EntityBinder - Bind entity com.scen.domain.User on table t_user
+[TRACE] 2018-02-09 17:45:09.740 [main] AnnotationBinder - Processing annotations of com.scen.domain.User.id
+[TRACE] 2018-02-09 17:45:09.744 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-02-09 17:45:09.745 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-02-09 17:45:09.746 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-09 17:45:09.753 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2018-02-09 17:45:09.756 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.scen.domain.User:id]
+[DEBUG] 2018-02-09 17:45:09.757 [main] SimpleValueBinder - building SimpleValue for id
+[TRACE] 2018-02-09 17:45:09.759 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-02-09 17:45:09.760 [main] PropertyBinder - Building property id
+[TRACE] 2018-02-09 17:45:09.762 [main] PropertyBinder - Cascading id with null
+[TRACE] 2018-02-09 17:45:09.763 [main] AnnotationBinder - Bind @Id on id
+[TRACE] 2018-02-09 17:45:09.764 [main] AnnotationBinder - Processing annotations of com.scen.domain.User.age
+[TRACE] 2018-02-09 17:45:09.764 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [age]
+[TRACE] 2018-02-09 17:45:09.764 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [age]
+[DEBUG] 2018-02-09 17:45:09.764 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_user), mappingColumn=age, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-09 17:45:09.764 [main] PropertyBinder - MetadataSourceProcessor property age with lazy=false
+[DEBUG] 2018-02-09 17:45:09.765 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.scen.domain.User:age]
+[DEBUG] 2018-02-09 17:45:09.765 [main] SimpleValueBinder - building SimpleValue for age
+[TRACE] 2018-02-09 17:45:09.765 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [age]
+[DEBUG] 2018-02-09 17:45:09.765 [main] PropertyBinder - Building property age
+[TRACE] 2018-02-09 17:45:09.765 [main] PropertyBinder - Cascading age with null
+[TRACE] 2018-02-09 17:45:09.765 [main] AnnotationBinder - Processing annotations of com.scen.domain.User.password
+[TRACE] 2018-02-09 17:45:09.766 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[TRACE] 2018-02-09 17:45:09.766 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[DEBUG] 2018-02-09 17:45:09.766 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-09 17:45:09.766 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2018-02-09 17:45:09.766 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.scen.domain.User:password]
+[DEBUG] 2018-02-09 17:45:09.766 [main] SimpleValueBinder - building SimpleValue for password
+[TRACE] 2018-02-09 17:45:09.766 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[DEBUG] 2018-02-09 17:45:09.766 [main] PropertyBinder - Building property password
+[TRACE] 2018-02-09 17:45:09.767 [main] PropertyBinder - Cascading password with null
+[TRACE] 2018-02-09 17:45:09.767 [main] AnnotationBinder - Processing annotations of com.scen.domain.User.username
+[TRACE] 2018-02-09 17:45:09.767 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [username]
+[TRACE] 2018-02-09 17:45:09.767 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [username]
+[DEBUG] 2018-02-09 17:45:09.767 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_user), mappingColumn=username, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-09 17:45:09.767 [main] PropertyBinder - MetadataSourceProcessor property username with lazy=false
+[DEBUG] 2018-02-09 17:45:09.767 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.scen.domain.User:username]
+[DEBUG] 2018-02-09 17:45:09.767 [main] SimpleValueBinder - building SimpleValue for username
+[TRACE] 2018-02-09 17:45:09.768 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [username]
+[DEBUG] 2018-02-09 17:45:09.768 [main] PropertyBinder - Building property username
+[TRACE] 2018-02-09 17:45:09.768 [main] PropertyBinder - Cascading username with null
+[DEBUG] 2018-02-09 17:45:09.770 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2018-02-09 17:45:09.770 [main] SimpleValueBinder - Starting fillSimpleValue for age
+[DEBUG] 2018-02-09 17:45:09.771 [main] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2018-02-09 17:45:09.771 [main] SimpleValueBinder - Starting fillSimpleValue for username
+[DEBUG] 2018-02-09 17:45:09.773 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [t_user]
+[TRACE] 2018-02-09 17:45:09.818 [main] BatchFetchStyle - Interpreting BatchFetchStyle from setting : null
+[DEBUG] 2018-02-09 17:45:09.857 [main] SessionFactoryImpl - Building session factory
+[DEBUG] 2018-02-09 17:45:09.858 [main] Settings - SessionFactory name : null
+[DEBUG] 2018-02-09 17:45:09.858 [main] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2018-02-09 17:45:09.858 [main] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2018-02-09 17:45:09.858 [main] Settings - Statistics: disabled
+[DEBUG] 2018-02-09 17:45:09.858 [main] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Default entity-mode: pojo
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Default batch fetch size: -1
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Maximum outer join fetch depth: 2
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Default null ordering: NONE
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - JTA Track by Thread: enabled
+[DEBUG] 2018-02-09 17:45:09.859 [main] Settings - Query language substitutions: {}
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - JPA query language strict compliance: disabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Named query checking : enabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Second-level cache: enabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Second-level query cache: disabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@7f34a967
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Second-level cache region prefix: null
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - JDBC batch size: 15
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Scrollable result sets: enabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - Wrap result sets: disabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2018-02-09 17:45:09.860 [main] Settings - JDBC result set fetch size: null
+[DEBUG] 2018-02-09 17:45:09.861 [main] Settings - Connection release mode: ON_CLOSE
+[DEBUG] 2018-02-09 17:45:09.861 [main] Settings - Generate SQL with comments: disabled
+[TRACE] 2018-02-09 17:45:09.861 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+[TRACE] 2018-02-09 17:45:09.869 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+[TRACE] 2018-02-09 17:45:09.935 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.spi.CacheImplementor]
+[TRACE] 2018-02-09 17:45:09.965 [main] TypeFactory - Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@3c5a54b7
+[DEBUG] 2018-02-09 17:45:09.966 [main] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2018-02-09 17:45:09.966 [main] SessionFactoryImpl - Instantiating session factory with properties: {gopherProxySet=false, awt.toolkit=sun.lwawt.macosx.LWCToolkit, dialect=org.hibernate.dialect.MySQL5Dialect, file.encoding.pkg=sun.io, java.specification.version=1.8, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, java.class.path=/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit5-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/tools.jar:/Volumes/macdata/idea项目/ssh/out/production/ssh:/Volumes/macdata/hibernate-lib/antlr-2.7.7.jar:/Volumes/macdata/hibernate-lib/backport-util-concurrent.jar:/Volumes/macdata/hibernate-lib/classmate-1.3.0.jar:/Volumes/macdata/hibernate-lib/dom4j-1.6.1.jar:/Volumes/macdata/hibernate-lib/ehcache-3.4.0.jar:/Volumes/macdata/hibernate-lib/hibernate-c3p0-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-commons-annotations-5.0.1.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-core-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-ehcache-5.2.12.Final.jar:/Volumes/macdata/hibernate-lib/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Volumes/macdata/hibernate-lib/jandex-2.0.3.Final.jar:/Volumes/macdata/hibernate-lib/jboss-logging-3.3.0.Final.jar:/Volumes/macdata/hibernate-lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/Volumes/macdata/struts2-lib/commons-fileupload-1.3.3.jar:/Volumes/macdata/struts2-lib/commons-io-2.5.jar:/Volumes/macdata/struts2-lib/commons-lang3-3.6.jar:/Volumes/macdata/struts2-lib/freemarker-2.3.26-incubating.jar:/Volumes/macdata/struts2-lib/javassist-3.20.0-GA.jar:/Volumes/macdata/struts2-lib/log4j-api-2.9.1.jar:/Volumes/macdata/struts2-lib/log4j-core-2.9.1.jar:/Volumes/macdata/struts2-lib/ognl-3.1.15.jar:/Volumes/macdata/struts2-lib/struts2-core-2.5.14.1.jar:/Volumes/macdata/spring-lib/aopalliance-1.0.jar:/Volumes/macdata/spring-lib/aspectjweaver-1.8.13.jar:/Volumes/macdata/spring-lib/commons-logging-1.2.jar:/Volumes/macdata/spring-lib/spring-aop-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-aspects-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-beans-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-context-support-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-core-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-expression-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-instrument-tomcat-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jdbc-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-jms-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-messaging-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-orm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-oxm-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-test-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-tx-4.3.14.RELEASE.jar:/Volumes/macdata/spring-lib/spring-web-4.3.14.RELEASE.jar:/Volumes/macdata/公用-lib/struts2-spring-plugin-2.5.14.1.jar:/Volumes/macdata/公用-lib/mysql-connector-java-5.1.45-bin.jar:/Volumes/macdata/c3p0连接池-lib/c3p0-0.9.5.2.jar:/Volumes/macdata/c3p0连接池-lib/mchange-commons-java-0.2.15.jar:/Applications/IntelliJ IDEA.app/Contents/lib/junit-4.12.jar:/Applications/IntelliJ IDEA.app/Contents/lib/hamcrest-core-1.3.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Shanghai, os.name=Mac OS X, java.vm.specification.version=1.8, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib, sun.java.command=com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 com.scen.test.AppTest, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, sun.cpu.endian=little, user.home=/Users/renzhenhua, user.language=zh, java.specification.vendor=Oracle Corporation, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre, file.separator=/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.runtime.version=1.8.0_144-b01, user.name=renzhenhua, path.separator=:, os.version=10.13.3, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, format_sql=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.classLoaders=[sun.misc.Launcher$AppClassLoader@18b4aac2], hibernate.current_session_context_class=org.springframework.orm.hibernate5.SpringSessionContext, show_sql=true, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=/var/folders/w1/8ytyb3js2_vgrsv6gvkcn8m40000gn/T/, java.version=1.8.0_144, user.dir=/Volumes/macdata/idea项目/ssh, os.arch=x86_64, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@417ad4f3, java.library.path=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.144-b01, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.datasource=com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> z8kflt9txu5ztq1czj3n3|6f36c2f0, dataSourceName -> z8kflt9txu5ztq1czj3n3|6f36c2f0 ], java.ext.dirs=/Users/renzhenhua/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.io.unicode.encoding=UnicodeBig, java.class.version=52.0, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16}
+[TRACE] 2018-02-09 17:45:09.975 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.query.spi.NativeQueryInterpreter]
+[DEBUG] 2018-02-09 17:45:09.981 [main] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2018-02-09 17:45:09.991 [main] SessionFactoryImpl - Instantiated session factory
+[TRACE] 2018-02-09 17:45:10.018 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+[TRACE] 2018-02-09 17:45:10.021 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+[TRACE] 2018-02-09 17:45:10.056 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.property.access.spi.PropertyAccessStrategyResolver]
+[DEBUG] 2018-02-09 17:45:10.062 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.scen.domain.User] is safe
+[DEBUG] 2018-02-09 17:45:10.062 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.083 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.scen.domain.User] is safe
+[DEBUG] 2018-02-09 17:45:10.085 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.scen.domain.User
+[TRACE] 2018-02-09 17:45:10.158 [main] AbstractPropertyMapping - Skipping duplicate registration of path [age], existing type = [org.hibernate.type.IntegerType@6821ea29], incoming type = [org.hibernate.type.IntegerType@6821ea29]
+[TRACE] 2018-02-09 17:45:10.158 [main] AbstractPropertyMapping - Skipping duplicate registration of path [password], existing type = [org.hibernate.type.StringType@662f5666], incoming type = [org.hibernate.type.StringType@662f5666]
+[TRACE] 2018-02-09 17:45:10.158 [main] AbstractPropertyMapping - Skipping duplicate registration of path [username], existing type = [org.hibernate.type.StringType@662f5666], incoming type = [org.hibernate.type.StringType@662f5666]
+[TRACE] 2018-02-09 17:45:10.158 [main] AbstractPropertyMapping - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.IntegerType@6821ea29], incoming type = [org.hibernate.type.IntegerType@6821ea29]
+[DEBUG] 2018-02-09 17:45:10.168 [main] AbstractEntityPersister - Static SQL for entity: com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.168 [main] AbstractEntityPersister -  Version select: select id from t_user where id =?
+[DEBUG] 2018-02-09 17:45:10.168 [main] AbstractEntityPersister -  Snapshot select: select user_.id, user_.age as age2_0_, user_.password as password3_0_, user_.username as username4_0_ from t_user user_ where user_.id=?
+[DEBUG] 2018-02-09 17:45:10.168 [main] AbstractEntityPersister -  Insert 0: insert into t_user (age, password, username, id) values (?, ?, ?, ?)
+[DEBUG] 2018-02-09 17:45:10.169 [main] AbstractEntityPersister -  Update 0: update t_user set age=?, password=?, username=? where id=?
+[DEBUG] 2018-02-09 17:45:10.169 [main] AbstractEntityPersister -  Delete 0: delete from t_user where id=?
+[TRACE] 2018-02-09 17:45:10.193 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.200 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@78c1a023]
+[TRACE] 2018-02-09 17:45:10.201 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@476ec9d0
+[TRACE] 2018-02-09 17:45:10.202 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@476ec9d0
+[TRACE] 2018-02-09 17:45:10.202 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.202 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.203 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.203 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.203 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.203 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.203 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.203 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.203 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.203 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.203 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@476ec9d0
+[TRACE] 2018-02-09 17:45:10.203 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.203 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.219 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.227 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.230 [main] EntityLoader - Static select for entity com.scen.domain.User [NONE]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=?
+[TRACE] 2018-02-09 17:45:10.231 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.231 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@14fc5d40]
+[TRACE] 2018-02-09 17:45:10.231 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51e0301d
+[TRACE] 2018-02-09 17:45:10.231 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51e0301d
+[TRACE] 2018-02-09 17:45:10.231 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.231 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.231 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.231 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.231 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.231 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.231 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.232 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.232 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.232 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.232 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51e0301d
+[TRACE] 2018-02-09 17:45:10.232 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.232 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.232 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.233 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.233 [main] EntityLoader - Static select for entity com.scen.domain.User [READ]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=?
+[TRACE] 2018-02-09 17:45:10.233 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.233 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47d7bfb3]
+[TRACE] 2018-02-09 17:45:10.233 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@770b3be0
+[TRACE] 2018-02-09 17:45:10.234 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@770b3be0
+[TRACE] 2018-02-09 17:45:10.234 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.234 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.234 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.234 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.234 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.234 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.234 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.235 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.235 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.235 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.235 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@770b3be0
+[TRACE] 2018-02-09 17:45:10.235 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.235 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.235 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.236 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.236 [main] EntityLoader - Static select for entity com.scen.domain.User [UPGRADE]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=? for update
+[TRACE] 2018-02-09 17:45:10.236 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.236 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1eb6e1c]
+[TRACE] 2018-02-09 17:45:10.236 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51dbd6e4
+[TRACE] 2018-02-09 17:45:10.236 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51dbd6e4
+[TRACE] 2018-02-09 17:45:10.236 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.236 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.236 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.236 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.236 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.237 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.237 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.237 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.237 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.237 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.237 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51dbd6e4
+[TRACE] 2018-02-09 17:45:10.237 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.241 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.242 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.242 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.242 [main] EntityLoader - Static select for entity com.scen.domain.User [UPGRADE_NOWAIT]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=? for update
+[TRACE] 2018-02-09 17:45:10.243 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.243 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2b8bd14b]
+[TRACE] 2018-02-09 17:45:10.243 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5f13be1
+[TRACE] 2018-02-09 17:45:10.243 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5f13be1
+[TRACE] 2018-02-09 17:45:10.243 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.243 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.243 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.243 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.243 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.243 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.243 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.243 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.243 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.244 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.244 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5f13be1
+[TRACE] 2018-02-09 17:45:10.244 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.244 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.244 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.244 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.245 [main] EntityLoader - Static select for entity com.scen.domain.User [UPGRADE_SKIPLOCKED]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=? for update
+[TRACE] 2018-02-09 17:45:10.245 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.245 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f303ecd]
+[TRACE] 2018-02-09 17:45:10.245 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@50d3bf39
+[TRACE] 2018-02-09 17:45:10.245 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@50d3bf39
+[TRACE] 2018-02-09 17:45:10.245 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.245 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.245 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.245 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.245 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.245 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.245 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.245 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.246 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.246 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.246 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@50d3bf39
+[TRACE] 2018-02-09 17:45:10.246 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.246 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.246 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.247 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.247 [main] EntityLoader - Static select for entity com.scen.domain.User [FORCE]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=? for update
+[TRACE] 2018-02-09 17:45:10.247 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.247 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@25a73de1]
+[TRACE] 2018-02-09 17:45:10.247 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@29852487
+[TRACE] 2018-02-09 17:45:10.247 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@29852487
+[TRACE] 2018-02-09 17:45:10.247 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.247 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.247 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.247 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.247 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.247 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.248 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.248 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.248 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.248 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.248 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@29852487
+[TRACE] 2018-02-09 17:45:10.248 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.248 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.248 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.248 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.249 [main] EntityLoader - Static select for entity com.scen.domain.User [PESSIMISTIC_READ]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=? lock in share mode
+[TRACE] 2018-02-09 17:45:10.249 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.249 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@771db12c]
+[TRACE] 2018-02-09 17:45:10.249 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@3afae281
+[TRACE] 2018-02-09 17:45:10.249 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@3afae281
+[TRACE] 2018-02-09 17:45:10.249 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.249 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.250 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.250 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.250 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.250 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.250 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.250 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.250 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.250 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.250 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@3afae281
+[TRACE] 2018-02-09 17:45:10.250 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.250 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.250 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.251 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.251 [main] EntityLoader - Static select for entity com.scen.domain.User [PESSIMISTIC_WRITE]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=? for update
+[TRACE] 2018-02-09 17:45:10.251 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.251 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@26ae880a]
+[TRACE] 2018-02-09 17:45:10.251 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@260f2144
+[TRACE] 2018-02-09 17:45:10.251 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@260f2144
+[TRACE] 2018-02-09 17:45:10.251 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.251 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.251 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.251 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.251 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.251 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.251 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.251 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.252 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.252 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.252 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@260f2144
+[TRACE] 2018-02-09 17:45:10.252 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.252 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.252 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.252 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.252 [main] EntityLoader - Static select for entity com.scen.domain.User [PESSIMISTIC_FORCE_INCREMENT]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=? for update
+[TRACE] 2018-02-09 17:45:10.253 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.253 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c017078]
+[TRACE] 2018-02-09 17:45:10.253 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51827393
+[TRACE] 2018-02-09 17:45:10.253 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51827393
+[TRACE] 2018-02-09 17:45:10.253 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.253 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.253 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.253 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.253 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.253 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.253 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.253 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.253 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.254 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.254 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51827393
+[TRACE] 2018-02-09 17:45:10.254 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.254 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.254 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.254 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.254 [main] EntityLoader - Static select for entity com.scen.domain.User [OPTIMISTIC]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=?
+[TRACE] 2018-02-09 17:45:10.255 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.255 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3be4f71]
+[TRACE] 2018-02-09 17:45:10.255 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5c645b43
+[TRACE] 2018-02-09 17:45:10.255 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=t_user, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5c645b43
+[TRACE] 2018-02-09 17:45:10.259 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.259 [main] MetamodelGraphWalker - Visiting attribute path : age
+[TRACE] 2018-02-09 17:45:10.259 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=age, type=integer [non-identifier])
+[TRACE] 2018-02-09 17:45:10.259 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=age, type=integer [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.259 [main] MetamodelGraphWalker - Visiting attribute path : password
+[TRACE] 2018-02-09 17:45:10.259 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=password, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.259 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=password, type=string [non-identifier])
+[DEBUG] 2018-02-09 17:45:10.259 [main] MetamodelGraphWalker - Visiting attribute path : username
+[TRACE] 2018-02-09 17:45:10.259 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.259 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=username, type=string [non-identifier])
+[TRACE] 2018-02-09 17:45:10.259 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5c645b43
+[TRACE] 2018-02-09 17:45:10.260 [main] AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : com.scen.domain.User
+[DEBUG] 2018-02-09 17:45:10.260 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-02-09 17:45:10.260 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-02-09 17:45:10.260 [main] LoadPlanTreePrinter - LoadPlan(entity=com.scen.domain.User)
+    - Returns
+       - EntityReturnImpl(entity=com.scen.domain.User, querySpaceUid=<gen:0>, path=com.scen.domain.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.scen.domain.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-02-09 17:45:10.260 [main] EntityLoader - Static select for entity com.scen.domain.User [OPTIMISTIC_FORCE_INCREMENT]: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=?
+[DEBUG] 2018-02-09 17:45:10.279 [main] Loader - Static select for action ACTION_MERGE on entity com.scen.domain.User: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=?
+[DEBUG] 2018-02-09 17:45:10.279 [main] Loader - Static select for action ACTION_REFRESH on entity com.scen.domain.User: select user0_.id as id1_0_0_, user0_.age as age2_0_0_, user0_.password as password3_0_0_, user0_.username as username4_0_0_ from t_user user0_ where user0_.id=?
+[TRACE] 2018-02-09 17:45:10.291 [main] MetadataContext - Wrapping up metadata context...
+[TRACE] 2018-02-09 17:45:10.292 [main] MetadataContext - Starting entity [com.scen.domain.User]
+[TRACE] 2018-02-09 17:45:10.293 [main] AttributeFactory - Building identifier attribute [com.scen.domain.User.id]
+[TRACE] 2018-02-09 17:45:10.294 [main] AttributeFactory - Starting attribute metadata determination [id]
+[TRACE] 2018-02-09 17:45:10.296 [main] AttributeFactory -     Determined member [public int com.scen.domain.User.getId()]
+[TRACE] 2018-02-09 17:45:10.296 [main] AttributeFactory -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory - Building attribute [com.scen.domain.User.age]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory - Starting attribute metadata determination [age]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory -     Determined member [public java.lang.Integer com.scen.domain.User.getAge()]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory - Building attribute [com.scen.domain.User.password]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory - Starting attribute metadata determination [password]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory -     Determined member [public java.lang.String com.scen.domain.User.getPassword()]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory -     Determined type [name=string, class=org.hibernate.type.StringType]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory - Building attribute [com.scen.domain.User.username]
+[TRACE] 2018-02-09 17:45:10.302 [main] AttributeFactory - Starting attribute metadata determination [username]
+[TRACE] 2018-02-09 17:45:10.303 [main] AttributeFactory -     Determined member [public java.lang.String com.scen.domain.User.getUsername()]
+[TRACE] 2018-02-09 17:45:10.303 [main] AttributeFactory -     Determined type [name=string, class=org.hibernate.type.StringType]
+[TRACE] 2018-02-09 17:45:10.303 [main] MetadataContext - Completed entity [com.scen.domain.User]
+[DEBUG] 2018-02-09 17:45:10.311 [main] SchemaManagementToolCoordinator - No actions specified; doing nothing
+[TRACE] 2018-02-09 17:45:10.312 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+[DEBUG] 2018-02-09 17:45:10.312 [main] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[TRACE] 2018-02-09 17:45:10.313 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver]
+[DEBUG] 2018-02-09 17:45:10.313 [main] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2018-02-09 17:45:10.319 [main] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2018-02-09 17:45:10.321 [main] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2018-02-09 17:45:10.322 [main] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2018-02-09 17:45:10.325 [main] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@4dafba3e
+[DEBUG] 2018-02-09 17:45:10.326 [main] SessionFactoryRegistry - Registering SessionFactory: fd3c1bd5-2104-48a0-acd0-6bc349f95207 (<unnamed>)
+[DEBUG] 2018-02-09 17:45:10.326 [main] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[TRACE] 2018-02-09 17:45:10.630 [main] SessionFactoryImpl$SessionBuilderImpl - Opening Hibernate Session.  tenant=null, owner=null
+[TRACE] 2018-02-09 17:45:10.700 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
+[TRACE] 2018-02-09 17:45:10.838 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+[DEBUG] 2018-02-09 17:45:10.843 [main] StatisticsInitiator - Statistics initialized [enabled=false]
+[TRACE] 2018-02-09 17:45:10.850 [main] SessionImpl - Opened Session [7c66a836-54dc-4bb5-9e71-fccc2bd1c0aa] at timestamp: 15181695106
+[DEBUG] 2018-02-09 17:45:10.852 [main] BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@55795845 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@193cde1d)
+[DEBUG] 2018-02-09 17:45:10.856 [main] TransactionImpl - begin
+[TRACE] 2018-02-09 17:45:10.856 [main] AbstractLogicalConnectionImplementor - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+[TRACE] 2018-02-09 17:45:10.856 [main] AbstractLogicalConnectionImplementor - Transaction begun via JDBC Connection.setAutoCommit(false)
+[TRACE] 2018-02-09 17:45:10.857 [main] JdbcResourceLocalTransactionCoordinatorImpl - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+[TRACE] 2018-02-09 17:45:10.863 [main] DefaultSaveOrUpdateEventListener - Saving transient instance
+[DEBUG] 2018-02-09 17:45:10.867 [main] AbstractSaveEventListener - Generated identifier: 0, using strategy: org.hibernate.id.Assigned
+[TRACE] 2018-02-09 17:45:10.876 [main] AbstractSaveEventListener - Saving [com.scen.domain.User#0]
+[TRACE] 2018-02-09 17:45:10.886 [main] ActionQueue - Adding an EntityInsertAction for [com.scen.domain.User] object
+[TRACE] 2018-02-09 17:45:10.889 [main] ActionQueue - Adding insert with no non-nullable, transient entities: [EntityInsertAction[com.scen.domain.User#0]]
+[TRACE] 2018-02-09 17:45:10.889 [main] ActionQueue - Adding resolved non-early insert action.
+[DEBUG] 2018-02-09 17:45:10.891 [main] TransactionImpl - committing
+[TRACE] 2018-02-09 17:45:10.891 [main] JdbcResourceLocalTransactionCoordinatorImpl - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+[TRACE] 2018-02-09 17:45:10.891 [main] SessionImpl - SessionImpl#beforeTransactionCompletion()
+[TRACE] 2018-02-09 17:45:10.891 [main] SessionImpl - Automatically flushing session
+[TRACE] 2018-02-09 17:45:10.891 [main] AbstractFlushingEventListener - Flushing session
+[DEBUG] 2018-02-09 17:45:10.892 [main] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2018-02-09 17:45:10.893 [main] AbstractFlushingEventListener - Dirty checking collections
+[TRACE] 2018-02-09 17:45:10.893 [main] AbstractFlushingEventListener - Flushing entities and processing referenced collections
+[TRACE] 2018-02-09 17:45:10.894 [main] AbstractFlushingEventListener - Processing unreferenced collections
+[TRACE] 2018-02-09 17:45:10.894 [main] AbstractFlushingEventListener - Scheduling collection removes/(re)creates/updates
+[DEBUG] 2018-02-09 17:45:10.894 [main] AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] 2018-02-09 17:45:10.894 [main] AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2018-02-09 17:45:10.896 [main] EntityPrinter - Listing entities:
+[DEBUG] 2018-02-09 17:45:10.896 [main] EntityPrinter - com.scen.domain.User{password=1234, id=0, age=21, username=中1文}
+[TRACE] 2018-02-09 17:45:10.896 [main] AbstractFlushingEventListener - Executing flush
+[TRACE] 2018-02-09 17:45:10.896 [main] AbstractEntityPersister - Inserting entity: [com.scen.domain.User#0]
+[TRACE] 2018-02-09 17:45:10.899 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.batch.spi.BatchBuilder]
+[TRACE] 2018-02-09 17:45:10.901 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.jmx.spi.JmxService]
+[DEBUG] 2018-02-09 17:45:10.907 [main] SQL - insert into t_user (age, password, username, id) values (?, ?, ?, ?)
+[TRACE] 2018-02-09 17:45:10.939 [main] ResourceRegistryStandardImpl - Registering statement [com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2015b2cd [wrapping: com.mysql.jdbc.JDBC42PreparedStatement@4e73b552: insert into t_user (age, password, username, id) values (** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **)]]
+[TRACE] 2018-02-09 17:45:10.939 [main] AbstractEntityPersister - Dehydrating entity: [com.scen.domain.User#0]
+[TRACE] 2018-02-09 17:45:10.943 [main] BasicBinder - binding parameter [1] as [INTEGER] - [21]
+[TRACE] 2018-02-09 17:45:10.944 [main] BasicBinder - binding parameter [2] as [VARCHAR] - [1234]
+[TRACE] 2018-02-09 17:45:10.944 [main] BasicBinder - binding parameter [3] as [VARCHAR] - [中1文]
+[TRACE] 2018-02-09 17:45:10.945 [main] BasicBinder - binding parameter [4] as [INTEGER] - [0]
+[TRACE] 2018-02-09 17:45:10.947 [main] ResourceRegistryStandardImpl - Releasing statement [com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2015b2cd [wrapping: com.mysql.jdbc.JDBC42PreparedStatement@4e73b552: insert into t_user (age, password, username, id) values (21, '1234', '中1文', 0)]]
+[TRACE] 2018-02-09 17:45:10.948 [main] ResourceRegistryStandardImpl - Closing prepared statement [com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2015b2cd [wrapping: com.mysql.jdbc.JDBC42PreparedStatement@4e73b552: insert into t_user (age, password, username, id) values (21, '1234', '中1文', 0)]]
+[TRACE] 2018-02-09 17:45:10.948 [main] JdbcCoordinatorImpl - Starting after statement execution processing [ON_CLOSE]
+[TRACE] 2018-02-09 17:45:10.948 [main] JdbcCoordinatorImpl - Starting after statement execution processing [ON_CLOSE]
+[TRACE] 2018-02-09 17:45:10.948 [main] AbstractFlushingEventListener - Post flush
+[TRACE] 2018-02-09 17:45:10.949 [main] SynchronizationRegistryStandardImpl - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+[TRACE] 2018-02-09 17:45:10.949 [main] AbstractLogicalConnectionImplementor - Preparing to commit transaction via JDBC Connection.commit()
+[TRACE] 2018-02-09 17:45:10.952 [main] AbstractLogicalConnectionImplementor - Transaction committed via JDBC Connection.commit()
+[TRACE] 2018-02-09 17:45:10.952 [main] AbstractLogicalConnectionImplementor - LogicalConnection#afterTransaction
+[TRACE] 2018-02-09 17:45:10.952 [main] ResourceRegistryStandardImpl - Releasing JDBC resources
+[TRACE] 2018-02-09 17:45:10.953 [main] AbstractLogicalConnectionImplementor - re-enabling auto-commit on JDBC Connection after completion of JDBC-based transaction
+[TRACE] 2018-02-09 17:45:10.953 [main] JdbcResourceLocalTransactionCoordinatorImpl - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+[TRACE] 2018-02-09 17:45:10.953 [main] SynchronizationRegistryStandardImpl - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+[TRACE] 2018-02-09 17:45:10.953 [main] SessionImpl - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+[TRACE] 2018-02-09 17:45:10.954 [main] SessionImpl - Closing session [7c66a836-54dc-4bb5-9e71-fccc2bd1c0aa]
+[TRACE] 2018-02-09 17:45:10.954 [main] JdbcCoordinatorImpl - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@46cb98a3]
+[DEBUG] 2018-02-09 17:45:10.954 [main] JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+[TRACE] 2018-02-09 17:45:10.954 [main] ResourceRegistryStandardImpl - Releasing JDBC resources
+[TRACE] 2018-02-09 17:45:10.954 [main] LogicalConnectionManagedImpl - Closing logical connection
+[DEBUG] 2018-02-09 17:45:10.955 [main] ThreadPoolAsynchronousRunner - com.mchange.v2.async.ThreadPoolAsynchronousRunner@72bd06ca: Adding task to queue -- com.mchange.v2.resourcepool.BasicResourcePool$1RefurbishCheckinResourceTask@3ffb3598
+[DEBUG] 2018-02-09 17:45:10.955 [main] BasicResourcePool - trace com.mchange.v2.resourcepool.BasicResourcePool@55795845 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@193cde1d)
+[TRACE] 2018-02-09 17:45:10.955 [main] ResourceRegistryStandardImpl - Releasing JDBC resources
+[TRACE] 2018-02-09 17:45:10.955 [main] LogicalConnectionManagedImpl - Logical connection closed
+[DEBUG] 2018-02-09 17:45:10.961 [Thread-5] SessionFactoryImpl - HHH000031: Closing
+[TRACE] 2018-02-09 17:45:10.962 [Thread-5] QueryPlanCache - Cleaning QueryPlan Cache
